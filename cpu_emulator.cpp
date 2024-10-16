@@ -146,7 +146,7 @@ void led_pattern(int data, char* name) {
 }
 
 
-///イミディエイトデータパターン出力関数
+//イミディエイトデータパターン出力関数
 void Imdata_pattern(int data) {
 	char moji[100];
 	moji[3] = data / 8;
